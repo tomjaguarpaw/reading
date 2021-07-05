@@ -12,4 +12,4 @@ Good enough software
 
 ## Hour 2
 
-Read "Chapter 2. A progmatic Approach" (75 mins)
+Read "Chapter 2. A Pragmatic Approach" (75 mins)
