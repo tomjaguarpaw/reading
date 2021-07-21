@@ -51,7 +51,7 @@ Read Pythonic Code
 * `collect_account_ids_from_arns` example should be
 
   ```
-  collect_account_ids_from_arns = mapMaybe $ arn ->
+  collect_account_ids_from_arns = mapMaybe $ \arn ->
       case match ARN_REGEX arn of
           Nothing -> Nothing
           Just matched -> groupdict matched "account_id"
