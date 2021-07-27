@@ -39,3 +39,22 @@ Branching strategy: There are 'thousands of people out there telling you how you
 "How long would it take to get [a replacement] machine back to the same state it was in (with all the SSH keys, editor configuration, shell setup, installed applications, and so on)?"
 
 Engineering daybooks: actually I want to keep *less* information, not more.
+
+## Hour 4
+
+Read Chapter 4 (Pragmatic Paranoia) plus Chapter 5 (Bend and Break) intro, Topic 28 Decoupling and Topic 29 Juggling the Real World (65 mins)
+
+"The fact that the routine has a postcondition implies that it will conclude" Hmm, I don't think so!
+
+Must be pretty expensive to check these pre- and post- conditions at run time!
+
+Types can be considered a (very weak) form of pre- and post- conditions that are checked at compile time.
+
+Dynamic contracts sound highly implausible.
+
+Exceptions should be dealt with by the block of code that knows how to deal with them.
+
+Exception antipattern: only things bound before `begin` should be in scope in `finally`!
+
+A finite state machine is just a collection of mutually-tail-recursive functions.
+
