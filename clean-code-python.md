@@ -39,7 +39,7 @@ Read Pythonic Code
 * Doesn't give any reason for "Pythonic" idioms.  Contrast with something like "algebra driven design".
 
 * Compare `ContextManager` to [`bracket`](https://www.stackage.org/haddock/lts-18.3/base-4.14.1.0/Control-Exception.html#v:bracket)
-
+"
 * `contextlib.contextmanager` is great, but it would be much better if Python supported lambda blocks!
 
 * "we could yield a statement" an *expression* (or perhaps just a value)!
@@ -70,3 +70,28 @@ Read Pythonic Code
 * `__call__` is just for syntactic convenience.
 
 * Mutable default arguments: I don't really like default arguments at all.
+
+# Hour 3
+
+Read one hour's worth of General Traits of Good Code
+
+* "Some parts of the software we are working on are not meant to be called directly by users". You don't say!
+
+* DbC sounds like just "Have your functions do a particular thing that you can describe"
+
+* "The mechanism for accomplishing this is an exception" "*The*"?  No, just one mechanism.  Errors-as-values is another.
+
+* "exceptions should be used for—clearly announcing an exceptional situation, and not altering the flow of the program according to business logic" Debatable
+
+* "If the code tries to use exceptions to handle expected scenarios or business logic, the flow of the program will become harder to read." Yes. If the code tries to use exceptions for *anything* it will become harder to read.
+
+* ```
+  result = condition.holds()
+  assert result > 0, f"Error with {result}"
+  ```
+  
+  What?!
+  
+* "YAGNI" Great idea!
+
+* "KIS"(!) also a great idea!
