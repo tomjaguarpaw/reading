@@ -73,7 +73,7 @@ Read Pythonic Code
 
 # Hour 3
 
-Read one hour's worth of General Traits of Good Code
+Read General Traits of Good Code until Inheritance in Python
 
 * "Some parts of the software we are working on are not meant to be called directly by users". You don't say!
 
