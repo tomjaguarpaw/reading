@@ -95,3 +95,13 @@ Read General Traits of Good Code until Inheritance in Python
 * "YAGNI" Great idea!
 
 * "KIS"(!) also a great idea!
+
+# Hour 4
+
+Read Inheritance in Python to the end of the chapter
+
+* "another good case for inheritance is exceptions" No, that's a good case for *interfaces*. Hmm, or is it.
+
+* Mixins: god, just compose functions on the relevant data structure, such as an iterator
+
+* "Good software design involves a combination of following good practices of software engineering and taking advantage of most of the features of the language." WTF
