@@ -58,3 +58,11 @@ Exception antipattern: only things bound before `begin` should be in scope in `f
 
 A finite state machine is just a collection of mutually-tail-recursive functions.
 
+## Hour 5
+
+Read from "Topic 30. Transforming Programming" to the end of Chapter 5 and all of Chapter 6 Concurrency
+
+Transforming programming: basically data pipelines
+
+
+
