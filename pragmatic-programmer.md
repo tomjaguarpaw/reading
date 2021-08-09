@@ -64,5 +64,7 @@ Read from "Topic 30. Transforming Programming" to the end of Chapter 5 and all o
 
 Transforming programming: basically data pipelines
 
+## Hour 6
 
+Read "Chapter 7. While You Are Coding up to and including Topic 42 Property Based Testing" (60 mins)
 
